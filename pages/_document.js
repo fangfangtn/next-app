@@ -27,7 +27,7 @@ export default function Document() {
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link
     rel="stylesheet"
-    classname="skin"
+    className="skin"
     type="text/css"
     href="css/skin/skin-1.css"
   />
@@ -74,7 +74,7 @@ export default function Document() {
 
     <script src="plugins/revolution/revolution/js/extensions/revolution-plugin.js"></script>
 
-    {/* <script src="js/rev-script-1.js"></script> */}
+    <script src="js/rev-script-1.js"></script>
       </body>
     </Html>
   )
