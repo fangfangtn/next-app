@@ -1,6 +1,17 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Header() {
+  const headerNav = [
+    { link: "/#", title: "Trang chủ" },
+    { link: "/vanban", title: "Văn bản" },
+    { link: "/trithuc", title: "Tri thức" },
+    { link: "/solieu", title: "Số liệu" },
+    { link: "/hoidap", title: "Hỏi đáp" },
+    { link: "/hienke", title: "Hiến kế" },
+    { link: "/thongbao", title: "Thông báo" },
+  ];
+  
   return (
     <header className="site-header header-style-1 mobile-sider-drawer-menu">
   <div className="top-bar bg-gray">
@@ -186,27 +197,13 @@ export default function Header() {
         {/* MAIN Vav */}
         <div className="header-nav navbar-collapse collapse">
           <ul className=" nav navbar-nav">
-            <li>
-              <a href="#">Trang chủ</a>
-            </li>
-            <li>
-              <a href="#">Văn bản</a>
-            </li>
-            <li>
-              <a href="#">Tri thức</a>
-            </li>
-            <li>
-              <a href="#">Số liệu</a>
-            </li>
-            <li>
-              <a href="#">Hỏi đáp</a>
-            </li>
-            <li>
-              <a href="#">Hiến kế</a>
-            </li>
-            <li>
-              <a href="#">Thông báo</a>
-            </li>
+            {headerNav.map((item) =>{
+              return (
+                <li>
+                  <Link href={item.link}>{item.title}</Link>
+                </li>
+              )
+            })}
           </ul>
         </div>
       </div>
