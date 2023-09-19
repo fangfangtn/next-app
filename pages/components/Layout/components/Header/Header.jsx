@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-import PageTitle from '../../../PageTitle'
+import { useRouter } from 'next/router';
 
 export default function Header() {
-
+  const router = useRouter();
   return (
     <header className="site-header header-style-1 mobile-sider-drawer-menu">
   <div className="top-bar bg-gray">
@@ -189,25 +189,25 @@ export default function Header() {
         {/* MAIN Vav */}
         <div className="header-nav navbar-collapse collapse">
           <ul className=" nav navbar-nav">
-            <li>
+            <li className={router.pathname === '/trangchu' ? 'active' : ''}>
               <Link href="/trangchu">Trang chủ</Link>
             </li>
-            <li>
+            <li className={router.pathname === '/vanban' ? 'active' : ''}>
               <Link href="/vanban">Văn bản</Link>
             </li>
-            <li>
+            <li className={router.pathname === '/trithuc' ? 'active' : ''}>
               <Link href="/trithuc">Tri thức</Link>
             </li>
-            <li>
+            <li className={router.pathname === '/solieu' ? 'active' : ''}>
               <Link href="/solieu">Số liệu</Link>
             </li>
-            <li>
+            <li className={router.pathname === '/hoidap' ? 'active' : ''}>
               <Link href="/hoidap">Hỏi đáp</Link>
             </li>
-            <li>
+            <li className={router.pathname === '/hienke' ? 'active' : ''}>
               <Link href="/hienke">Hiến kế</Link>
             </li>
-            <li>
+            <li className={router.pathname === '/thongbao' ? 'active' : ''}>
               <Link href="/thongbao">Thông báo</Link>
             </li>
           </ul>
