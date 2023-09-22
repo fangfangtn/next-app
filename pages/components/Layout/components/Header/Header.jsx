@@ -2,10 +2,34 @@ import Link from 'next/link'
 import React from 'react'
 import { useRouter } from 'next/router';
 import { FormattedMessage } from "react-intl";
+import { useState, useEffect } from 'react';
 
 export default function Header() {
   const router = useRouter();
   const { locale } = useRouter();
+  const currentPath = router.asPath;
+  const [activeLinks, setActiveLinks] = useState({
+    '/trangchu': false,
+    '/vanban': false,
+    '/trithuc': false,
+    '/solieu': false,
+    '/hoidap': false,
+    '/hienke': false,
+    '/thongbao': false,
+  });
+  useEffect(() => {
+    // Kiểm tra đường dẫn hiện tại và cài đặt trạng thái "active" tương ứng
+    setActiveLinks({
+      ...activeLinks,
+      '/trangchu': currentPath === '/trangchu',
+      '/vanban': currentPath === '/vanban',
+      '/trithuc': currentPath === '/trithuc',
+      '/solieu': currentPath === '/solieu',
+      '/hoidap': currentPath === '/hoidap',
+      '/hienke': currentPath === '/hienke',
+      '/thongbao': currentPath === '/thongbao',
+    });
+  }, [currentPath]);
   return (
     <header className="site-header header-style-1 mobile-sider-drawer-menu">
       <div className="top-bar bg-gray">
@@ -210,7 +234,7 @@ export default function Header() {
             {/* MAIN Vav */}
             <div className="header-nav navbar-collapse collapse">
               <ul className=" nav navbar-nav">
-                <li className={router.pathname === '/trangchu' ? 'active' : ''}>
+                <li className={activeLinks['/trangchu'] ? 'active' : ''}>
                   <Link href="/trangchu">
                   <FormattedMessage
                       id="homepage"
@@ -218,7 +242,7 @@ export default function Header() {
                     />
                   </Link>
                 </li>
-                <li className={router.pathname === '/vanban' ? 'active' : ''}>
+                <li className={activeLinks['/vanban'] ? 'active' : ''}>
                   <Link href="/vanban">
                   <FormattedMessage
                       id="text"
@@ -226,7 +250,7 @@ export default function Header() {
                     />
                   </Link>
                 </li>
-                <li className={router.pathname === '/trithuc' ? 'active' : ''}>
+                <li className={activeLinks['/trithuc'] ? 'active' : ''}>
                   <Link href="/trithuc">
                   <FormattedMessage
                       id="knowledge"
@@ -234,7 +258,7 @@ export default function Header() {
                     />
                   </Link>
                 </li>
-                <li className={router.pathname === '/solieu' ? 'active' : ''}>
+                <li className={activeLinks['/solieu'] ? 'active' : ''}>
                   <Link href="/solieu">
                   <FormattedMessage
                       id="data"
@@ -242,7 +266,7 @@ export default function Header() {
                     />
                   </Link>
                 </li>
-                <li className={router.pathname === '/hoidap' ? 'active' : ''}>
+                <li className={activeLinks['/hoidap'] ? 'active' : ''}>
                   <Link href="/hoidap">
                   <FormattedMessage
                       id="aks"
@@ -250,7 +274,7 @@ export default function Header() {
                     />
                   </Link>
                 </li>
-                <li className={router.pathname === '/hienke' ? 'active' : ''}>
+                <li className={activeLinks['/hienke'] ? 'active' : ''}>
                   <Link href="/hienke">
                   <FormattedMessage
                       id="constitution"
@@ -258,7 +282,7 @@ export default function Header() {
                     />
                   </Link>
                 </li>
-                <li className={router.pathname === '/thongbao' ? 'active' : ''}>
+                <li className={activeLinks['/thongbao'] ? 'active' : ''}>
                   <Link href="/thongbao">
                     <FormattedMessage
                       id="notification"
