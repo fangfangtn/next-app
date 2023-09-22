@@ -9464,7 +9464,10 @@ HEADER (top part of page)
 	font-weight:600;
 	letter-spacing:1px;
 }
-
+.appint-btn img {
+	padding-left: 8px;
+	padding-right:2px;
+}
 
 .appint-btn a:hover{
 	background-color:#222;
@@ -17439,6 +17442,4 @@ color:#fff;
 
 
 .mt-types-of-btns .site-button.m-b15{margin-bottom: 15px;}
-.active {
-	color: #F5BF23; /* Màu chữ tùy chọn cho mục đang được chọn */
-  }
+

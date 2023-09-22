@@ -1,0 +1,98 @@
+{
+    "name" : "Chương trình Chuyển đổi số quốc gia",
+    "login" : "Đăng nhập",
+    "homepage" : "Trang chủ",
+    "text" : "Văn bản",
+    "knowledge" : "Tri thức",
+    "data" : "Dữ liệu",
+    "aks" : "Hỏi đáp",
+    "constitution" :"Hiến kế",
+    "notification" : "Thông báo",
+    "title.home.welcome_wrapper" :"CHUYỂN ĐỔI SỐ QUỐC GIA",
+    "base.support" : "Nền tảng",
+    "support.support" : "hỗ trợ",
+    "text1.support" : "Tham khảo danh sách các nền tảng hỗ trợ chuyển đổi số, phục vụ công cuộc chuyển đổi số quốc gia: Chính phủ số, kinh tế số và xã hội số.",
+    "text2.support" : "Đánh giá",
+    "text3.support" : "xếp hạng chuyển đổi số",
+    "text4.support" : "Đây là nội dung demo phục vụ cho việc đánh giá có phù hợp không.",
+    "text5.see.support" : " Xem Chi tiết",
+    "text6.support" : "Nền tảng học hỗ trợ học trực tuyến",
+    "text7.all.support" : "Đây là nội dung demo phục vụ cho việc đánh giá có phù hợp không.",
+    "text8.support" : "Nền tảng khảo sát đánh giá phân tích",
+    "text9.support" : "Nền tảng xã hội số và kinh tế số",
+    "text10.support" : "Cẩm nang chuyển đổi số",
+    "text11.support" : "SMEdx - Chuyển đổi số cho doanh nghiệp",
+    "text13.support" : "Nền tảng số EMC tracking",
+    "text12.support" : "Cổng thông tin dữ liệu quốc gia",
+    
+     "only" : "Cục",
+    "title1.conversion" : "Chuyển đổi số Quốc gia",
+    "title2.conversion" : "Cục Chuyển đổi số quốc gia",
+    "text1.conversion" : " Cục Chuyển đổi số quốc gia là tổ chức trực thuộc Bộ Thông tin và Truyền thông, thực hiện chức năng tham mưu giúp Bộ trưởng quản lý nhà nước và tổ chức thực thi pháp luật về ứng dụng công nghệ thông tin trong cơ quan nhà nước, phát triển Chính phủ điện tử, Chính phủ số; là đầu mối tổng hợp, tham mưu, điều phối, thúc đẩy chuyển đổi số quốc gia.",
+    "text2.conversion" : "Cục Chuyển đổi số quốc gia có tư cách pháp nhân, có con dấu và tài khoản riêng theo quy định của pháp luật, có trụ sở chính đặt tại thành phố Hà Nội.",
+    "see.conversion" : "Xem chi tiết",
+
+
+
+    "title1.recital" : "Câu chuyện",
+    "title1.1.recital" : "chuyển đổi số",
+    "text1.recital" : "“Internet là một mạng lưới phi tập trung với sự sáng tạo không giới hạn. Và chuyển đổi số chính là bước tiếp theo của cuộc cách mạng về phi tập trung hóa”",
+    "link1.recital" : "Đô thị thông minh và Chính quyền số",
+    "link2.recital" : "Cơ sở dữ liệu quốc gia về dân cư",
+    "link3.recital" : "Hệ thống Hội nghị giao ban điện tử",
+    "link4.recital" : "Khoa học, công nghệ đổi mới sáng tạo",
+    "link5.recital" : "Cấp hộ chiếu phổ thông",
+    "see.recital" : "Xem Chi tiết",
+
+    "title1.problem" : "Bài toán",
+    "title1.1.problem" : "Chuyển đổi số",
+    "title2.problem" : "Tất cả",
+    "link1.problem" : "Lĩnh vực theo chiều ngang",
+    "link2.problem" : "Lĩnh vực ưu tiên CĐS QG",
+    "link3.problem" : "Trụ cột của CĐS QG",
+    "link4.problem" : "Đối tượng sử dụng",
+    "link5.problem" : "Theo cấp hành chính",
+    "text1.problem" : "Chuyển đổi lên hạ tầng và điện toán đám mây",
+    "text2.problem" : "Kho học liệu mở cho giáo dục phổ thông",
+    "text3.problem" : "CĐS 3 trụ cột: Chính quyền số, Kinh tế số",
+    "text3.1.problem" : "Xã hội số",
+    "text4.problem" : "Giải pháp công nghệ AI nhận dạng cảm xúc",
+    "text5.problem" : "Giải pháp công nghệ thị giác máy tính",
+    "text6.problem" : "Giải pháp ứng dụng blockchain trong digital twin",
+    "text7.problem" : "Trung tâm tích hợp dữ liệu chuyên ngành hàng hải",
+    "text8.problem" : "Phần mềm AI hỗ trợ phân tích ảnh nhiễm sắc thể",
+    "text9.problem" : "Chuyển đổi số nâng cao văn hóa đọc cho người dân",
+    "text10.problem" : "Nguồn nhân lực triển khai thực hiện chuyển đổi số",
+
+
+
+    "title1.ingredient" : "Các mảng",
+    "title1.1.ingredient" : "Chuyển đổi số",
+    "content1.ingredient" : "Tuần lễ Chuyển đổi số",
+    "text1.ingredient" : "Tuần lễ Chuyển đổi số - Huế 2022 được tổ chức nhằm xây dựng chiến lược CĐS giai đoạn mới.",
+    "see.ingredient" : "Xem Chi tiết",
+    "content2.ingredient" : "Nhận thức về Chuyển đổi số",
+    "text2.ingredient" : "Các đài truyền hình đã và đang nỗ lực đẩy mạnh sản xuất chương trình liên quan đến “Chuyển đổi số”.",
+    "content3.ingredient" : "Phát triển hạ tầng số",
+    "text3.ingredient" : "Phát triển, xây dựng hạ tầng số đồng bộ, hiện đại phục vụ Chính phủ số là xu hướng của nhiều quốc gia.",
+
+
+
+
+    "content1.footer" : "CỔNG THÔNG TIN ĐIỆN TỬ CHUYỂN ĐỔI SỐ QUỐC GIA",
+    "content2.footer" : "Cung cấp các thông tin chính thống về chương trình Chuyển đổi số quốc gia",
+    "content3.footer" : "Cổng thông tin Chuyển đổi số quốc gia cung cấp các thông tin chính thống về chương trình Chuyển đổi số quốc gia.",
+    "content4.footer" : "Địa chỉ: Tòa nhà VNTA, 68 Dương Đình Nghệ, Cầu Giấy, Hà Nội",
+    "content5.footer" : "Số điện thoại",
+    "content6.footer" : "Tìm kiếm",
+    "content7.footer" : "Giới thiệu",
+    "content8.footer" : "Hỗ trợ",
+    "content9.footer" : "Hoạt động",
+    "content10.footer" : "Liên hệ",
+    "content11.footer" : "© 2023 Chuyển đổi số quốc gia",
+    "content12.footer" : "Liên hệ"
+    
+
+
+
+}
